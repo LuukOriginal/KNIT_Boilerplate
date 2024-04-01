@@ -1,0 +1,43 @@
+{
+    "name":"ProjectNameHere",
+    "tree": {
+        "$className":"DataModel",
+        "ReplicatedStorage":{
+            "$className":"ReplicatedStorage",
+
+            "Modules": {
+                "$path":"src/ReplicatedStorage"
+            },
+
+            "Packages": {
+                "$path":"Packages"
+            }
+        },
+
+        "ServerScriptService":{
+            "$className":"ServerScriptService",
+
+            "Handler":{
+                "$path":"src/ServerScriptService"
+            }
+        },
+
+        "ServerStorage":{
+            "$className":"ServerStorage",
+
+            "Modules":{
+                "$path":"src/ServerStorage"
+            }
+        },
+
+        "StarterPlayer":{
+            "$className":"StarterPlayer",
+
+            "StarterPlayerScripts": {
+                "Handler": {
+                    "$path":"src/StarterPlayerScripts"
+                }
+            }
+        }
+    }
+}
